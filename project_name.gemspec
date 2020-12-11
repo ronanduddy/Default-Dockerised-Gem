@@ -11,14 +11,16 @@ Gem::Specification.new do |spec|
   spec.homepage = 'https://github.com/ronanduddy/project_name'
   spec.license = 'MIT'
   spec.authors = ['Rónán Duddy']
-  spec.email = []
+  spec.email = ['dev@ronanduddy.xyz']
+  spec.extra_rdoc_files = Dir['README.md', 'LICENSE.md']
 
-  spec.files = []
-  spec.bindir = 'bin'
-  spec.executables = ['project_name']
-  spec.require_path = 'lib'
+  spec.files = Dir['lib/**/*']
+  spec.require_paths = %w[lib]
 
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.bindir = 'exe'
+  spec.executables = %w[project_name]
+
+  spec.required_ruby_version = '>= 2.7.2'
 
   spec.add_development_dependency 'guard', '~> 2.16', '>= 2.16.2'
   spec.add_development_dependency 'guard-rspec', '~> 4.7', '>= 4.7.3'
