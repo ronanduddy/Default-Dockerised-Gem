@@ -2,6 +2,8 @@
 
 Description of project
 
+[![Build Status](https://travis-ci.org/ronanduddy/Dockerised-Ruby-Gem.svg?branch=master)](https://travis-ci.org/ronanduddy/Dockerised-Ruby-Gem)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -30,7 +32,9 @@ bundle exec project_name
 
 ## Development
 
-After checking out the repo, make sure to change instances of 'ProjectName' or 'project_name' in files or directory names to what ever you like. Then, run `make test` to run all the tests or `make guard` to use guard for testing. You can also run `make irb` for an interactive prompt that will allow you to experiment.
+After checking out the repo, make sure to change instances of 'ProjectName' or 'project_name' in files or directory names to what ever you like.
+
+Then, run `make test` to run all the tests or `make guard` to use guard for testing. You can also run `make irb` for an interactive prompt that will allow you to experiment.
 
 ## Contributing
 
